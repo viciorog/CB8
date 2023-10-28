@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2,
+p {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+body {
+  background-color: #ffffff;
+  font-size: 25px;
+  font-family: "ONE PIECE";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.main-header {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-wrapper {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.main-nav a {
+  color: black;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  color: #039eff;
+}
+
+.hero {
+  width: 100%;
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 20px;
+  align-items: center;
+}
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.display {
+  margin-bottom: 10px;
+}
+
+.hero-text a {
+  text-decoration: none;
+  color: white;
+}
+.hero-text a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-img {
+  animation: anim-gear-five 1s ease-in-out infinite alternate;
+  margin-right: -80px;
+}
+
+@keyframes anim-gear-five {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: 1px solid grey;
+  background-color: black;
+  margin-top: 30px;
+}
+.button:hover {
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-wrapper {
+    padding-top: 0;
+  }
+  .hero-text,
+  .hero-img {
+    width: 50%;
+  }
+}
+
+.services {
+  width: 100%;
+}
+
+.services-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-text {
+  width: 100%;
+}
+
+.services-img {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.services-text2 {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.services-img2 {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.services a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.services a:hover {
+  color: #039eff;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+  }
+  h2,
+  p {
+    font-size: 30px;
+  }
+  .main-header {
+    position: static;
+  }
+  .main-nav ul {
+    flex-direction: column;
+  }
+  .services-img {
+    width: 100;
+    height: 100;
+  }
+}
+
+.card {
+  display: inline-flex;
+}
+
+.site-container {
+  margin: 2rem;
+  max-width: calc(100% - 80px);
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  gap: 2rem;
+}
+
+.article-image {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.article-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+.article-card {
+  background-color: #f0f8ff;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.article-content {
+  padding: 2rem;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+.footer a:hover {
+  color: #039eff;
+}
+
+/*ho provato a mettere le card in due righe ma niente. 
+avendole fatte in mobile first, non riesco a posizionarle in riga. 
+Aggiungendo display inline flex, miglioro un po' la cosa ma poi in versione mobile non vanno più.
+Ho cercato di copiare il meno possibile ma non è stato facile, 
+e non so utilizzare per niente la proprietà @media query.
+Spero comunque che il resto sia corretto!
+*/
