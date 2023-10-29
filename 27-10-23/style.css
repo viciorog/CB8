@@ -203,6 +203,10 @@ html {
   display: inline-flex;
 }
 
+.card2 {
+  display: inline-flex;
+}
+
 .site-container {
   margin: 2rem;
   max-width: calc(100% - 80px);
@@ -235,6 +239,21 @@ html {
   padding: 2rem;
 }
 
+.button-card {
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: 1px solid grey;
+  background-color: black;
+  margin-top: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+.button-card:hover {
+  background-color: #039eff;
+  color: black;
+}
+
 .footer {
   width: 100%;
   height: 100%;
@@ -250,10 +269,9 @@ html {
   color: #039eff;
 }
 
-/*ho provato a mettere le card in due righe ma niente. 
-avendole fatte in mobile first, non riesco a posizionarle in riga. 
-Aggiungendo display inline flex, miglioro un po' la cosa ma poi in versione mobile non vanno più.
+/*
 Ho cercato di copiare il meno possibile ma non è stato facile, 
 e non so utilizzare per niente la proprietà @media query.
 Spero comunque che il resto sia corretto!
 */
+
