@@ -325,11 +325,11 @@ const BASE_URL_2 = "https://api.openweathermap.org/data/2.5/forecast";
 const API_KEY = "a959731e5a50375009334925528b7501";
 
 const searchBox = document.querySelector(".search-box");
-searchBox.addEventListener("change", (e) => {
-  e.preventDefault();
-  checkWeather(e.target.value);
+//searchBox.addEventListener("change", (e) => {
+  //e.preventDefault();
+  //checkWeather(e.target.value);
   // getDailyWeather(e.target.value);
-});
+//});
 
 searchBox.addEventListener("change", async (e) => {
   e.preventDefault();
