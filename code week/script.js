@@ -354,7 +354,7 @@ async function checkWeather(city) {
   document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
   document.querySelector(".humidity").innerHTML = data.main.humidity + " %";
 
-  console.log(data);
+  //console.log(data);
 
   const weatherImg = document.querySelector(".img-weather");
   const cardEl = document.querySelector(".card");
