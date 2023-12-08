@@ -100,7 +100,7 @@ h2 {
   display: flex;
 }
 
-.img-forecast {
+/* .img-forecast {
   width: 50px;
 }
 
@@ -111,7 +111,7 @@ h2 {
   flex-wrap: wrap;
   height: 130px;
   flex-direction: column;
-  /* border: solid grey; */
+  border: solid grey; 
   border-radius: 10px;
   align-items: center;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
@@ -128,4 +128,4 @@ h2 {
 
 .second-day {
   border: solid red;
-}
+} */
