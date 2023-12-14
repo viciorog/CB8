@@ -1,0 +1,6 @@
+.gallery {
+  /* border: solid red; */
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
