@@ -1,0 +1,24 @@
+.hero {
+  position: relative;
+  max-width: 530px;
+  margin-top: 2%;
+  margin-left: 15px;
+}
+
+.hero img {
+  width: 530px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hero-text p {
+  margin-top: -5%;
+}

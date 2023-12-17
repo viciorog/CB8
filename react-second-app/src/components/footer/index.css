@@ -1,5 +1,6 @@
 .footer-element {
   display: flex;
+  margin-top: 30px;
   flex-direction: column;
   background-color: rgb(72, 69, 69);
   width: 550px;
@@ -9,7 +10,6 @@
 
 .first-section {
   position: relative;
-  border-bottom: solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,9 @@
 }
 
 .copyright {
+  position: relative;
   font-size: x-small;
+  right: 3%;
 }
 
 .container-list {
@@ -53,6 +55,14 @@
   text-decoration: none;
   list-style-type: none;
   font-size: small;
+}
+
+.separator {
+  position: relative;
+  border: 1px solid black;
+  width: 500px;
+  left: 5%;
+  transform: translate(0, -5%);
 }
 
 .second-list-section {
@@ -75,6 +85,6 @@
 
 .social-logos {
   position: absolute;
-  right: 1%;
+  right: 4%;
   cursor: pointer;
 }

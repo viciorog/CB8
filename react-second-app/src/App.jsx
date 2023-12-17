@@ -1,5 +1,8 @@
 import CardList from "./components/cardList/CardList";
 import GalleryList from "./components/galleryList/GalleryList";
+import Hero from "./components/hero";
+import NavBar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer.jsx";
 import "./App.css";
 
 function App() {
@@ -96,6 +99,8 @@ function App() {
       {/* <Button textContent="cliccami!" color="white" />
       <Button textContent="Accetta!" />
       <Button textContent="Annulla!" /> */}
+      <NavBar />
+      <Hero />
       <CardList
         cardListObj={{ title: "Indie movies ecc...", list: imagesList1 }}
       />
@@ -103,6 +108,7 @@ function App() {
       <GalleryList
         galleryListObj={{ title: "Gallery", list: imgGalleryList }}
       />
+      <Footer />
       {/* <CardList cardListObj={{ title: "Sci-Fi" }} />
       <CardList cardListObj={{ title: "Adventure" }} /> */}
     </div>

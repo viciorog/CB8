@@ -5,10 +5,7 @@ const Footer = () => {
     <div className="footer-element">
       <div className="first-section">
         <div className="footer-image">
-          <img
-            src="https://cdn.worldvectorlogo.com/logos/svg-6.svg"
-            alt="logo"
-          />
+          <img src="https://img.logoipsum.com/295.svg" alt="logo" />
         </div>
         <div className="container-list">
           <ul className="list-section">
@@ -170,6 +167,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
+      <div className="separator"></div>
       <div className="second-section">
         <ul className="second-list-section">
           <li className="list-el">HOME</li>
