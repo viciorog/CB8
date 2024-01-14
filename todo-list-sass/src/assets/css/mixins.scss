@@ -1,0 +1,19 @@
+@mixin flex-container() {
+  background-color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@mixin button-container() {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
