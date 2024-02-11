@@ -1,0 +1,20 @@
+@import "../../assets/css/variables.scss";
+@import "../../assets/css/mixins.scss";
+
+.Todo-item {
+  @include flex-container();
+  margin-top: 10px;
+
+  .p {
+    color: black;
+  }
+
+  .button {
+    @include button-container();
+    font-size: 2rem;
+
+    &:hover {
+      transform: scale(1) rotate(36deg);
+    }
+  }
+}

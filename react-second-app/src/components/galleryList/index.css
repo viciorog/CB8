@@ -1,0 +1,12 @@
+.gallery-list {
+  display: flex;
+
+  width: 550px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.gallery-list button {
+  height: 50px;
+}

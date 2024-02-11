@@ -1,0 +1,18 @@
+.Homepage {
+  margin: 10px 20px;
+
+  .Copyright {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}

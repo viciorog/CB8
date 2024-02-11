@@ -1,0 +1,199 @@
+body,
+html {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logo-site {
+  width: 150px;
+}
+
+p {
+  color: rgb(92, 91, 91);
+}
+
+.first-list,
+.second-list {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #6c63ff;
+}
+
+.order {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.principal-text {
+  position: relative;
+  left: 20px;
+  padding-left: 20px;
+}
+
+.buttons {
+  background-color: #6c63ff;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.buttons:hover {
+  background-color: whitesmoke;
+  color: #6c63ff;
+}
+
+.container-image {
+  position: relative;
+  left: 50px;
+  width: 600px;
+}
+
+.middle-text,
+.pre-blog {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 2%;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.first-section,
+.second-section,
+.third-section {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.eiffel,
+.camping,
+.moon {
+  width: 100%;
+}
+
+.second-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+
+  gap: 100px;
+}
+
+.text-container {
+  position: relative;
+  text-align: center;
+  width: 700px;
+  padding-right: 50px;
+}
+
+.search-image {
+  position: relative;
+  width: 600px;
+  padding-left: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: opacity 200ms;
+}
+
+.card-container:hover .card:not(:hover) {
+  opacity: 0.3;
+}
+
+.card-image {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.p-text {
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+.button-card {
+  align-items: center;
+}
+
+.last-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(232, 229, 229);
+  width: 100%;
+  gap: 51px;
+  padding: 100px;
+}
+
+.contact-us {
+  width: 48%;
+}
+
+.form {
+  display: flex;
+  flex-wrap: space-between;
+  border-radius: 5px;
+  width: 48%;
+}
+
+/* Non riesco a sistemare il form e sono molto stanco :'(  */

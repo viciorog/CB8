@@ -1,0 +1,26 @@
+@import "../../assets/css/variables.scss";
+@import "../../assets/css/mixins.scss";
+
+.AddTodoInput {
+  @include flex-container();
+
+  .Input {
+    height: 30px;
+    background-color: $primary-color;
+    border: none;
+    font-size: $font-size;
+    color: black;
+    outline: none;
+  }
+
+  .button {
+    @include button-container();
+    width: 100px;
+    height: 50px;
+    color: black;
+    font-size: 1.3rem;
+    &:hover {
+      color: red;
+    }
+  }
+}

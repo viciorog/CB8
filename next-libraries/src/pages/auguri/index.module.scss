@@ -1,0 +1,20 @@
+@import "../../variables/mixins.scss";
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.auguri {
+  @include color();
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 10rem;
+  animation: rotate 5s infinite linear;
+}

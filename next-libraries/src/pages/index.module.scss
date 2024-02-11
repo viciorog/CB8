@@ -1,0 +1,16 @@
+@import "../../src/variables/mixins.scss";
+
+.Homepage {
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+
+  .Link {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      @include color();
+    }
+  }
+}

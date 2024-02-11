@@ -1,0 +1,44 @@
+/* body,
+html {
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://picsum.photos/1920/1080");
+  height: 50%;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+.button-image {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.gallery {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.img-gallery {
+  align-items: center;
+  border-radius: 10px;
+}

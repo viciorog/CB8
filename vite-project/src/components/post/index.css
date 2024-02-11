@@ -1,0 +1,43 @@
+.Post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+  top: 50px;
+}
+
+.Post__title {
+  margin: 0;
+}
+
+.Post__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Post__info--categories {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.Post hr {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+
+.Post__user {
+  display: flex;
+  margin-bottom: 2%;
+  align-items: center;
+  gap: 3%;
+}
+
+.Post__user img {
+  background-color: grey;
+  border-radius: 100%;
+}
